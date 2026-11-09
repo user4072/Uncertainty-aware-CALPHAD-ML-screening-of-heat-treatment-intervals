@@ -36,3 +36,4 @@ reproducibility_package.zip
 
 # Scratch
 logs/*.log
+results/*.log
