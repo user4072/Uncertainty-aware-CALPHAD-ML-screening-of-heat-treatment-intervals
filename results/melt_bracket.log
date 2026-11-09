@@ -1,0 +1,28 @@
+   random id= 300: dTsol +2.00 K, dTliq -2.00 K, dH +0.01 J/g (10 s)
+   random id= 357: dTsol +1.96 K, dTliq -0.10 K, dH +0.03 J/g (8 s)
+   random id= 180: dTsol +6.04 K, dTliq -5.99 K, dH +0.03 J/g (8 s)
+   random id= 220: dTsol +2.20 K, dTliq -4.02 K, dH -0.01 J/g (8 s)
+   random id= 278: dTsol +4.10 K, dTliq -0.47 K, dH +0.05 J/g (9 s)
+   random id= 198: dTsol +4.91 K, dTliq -1.99 K, dH +0.07 J/g (9 s)
+   random id= 121: dTsol +5.94 K, dTliq -2.02 K, dH +0.05 J/g (9 s)
+   random id= 146: dTsol +6.16 K, dTliq -2.03 K, dH +0.06 J/g (8 s)
+   random id= 308: dTsol +0.01 K, dTliq -7.23 K, dH -0.05 J/g (9 s)
+   random id= 174: dTsol +0.01 K, dTliq -7.83 K, dH -0.08 J/g (8 s)
+   random id= 104: dTsol -0.01 K, dTliq -1.99 K, dH -0.03 J/g (8 s)
+   random id= 402: dTsol +4.05 K, dTliq -7.72 K, dH -0.00 J/g (8 s)
+shortlist id=  -1: dTsol -0.16 K, dTliq -6.26 K, dH -0.06 J/g (8 s)
+shortlist id=  -2: dTsol +4.46 K, dTliq -4.00 K, dH +0.03 J/g (7 s)
+shortlist id=  -3: dTsol +3.21 K, dTliq -7.52 K, dH +0.06 J/g (8 s)
+shortlist id=  -4: dTsol +4.75 K, dTliq -5.98 K, dH +0.01 J/g (9 s)
+shortlist id=  -5: dTsol +4.06 K, dTliq -7.84 K, dH -0.00 J/g (8 s)
+shortlist id=  -6: dTsol +5.93 K, dTliq -5.93 K, dH +0.03 J/g (8 s)
+      dsc id=-100: dTsol +7.81 K, dTliq -7.83 K, dH +0.03 J/g (8 s)
+      dsc id=-101: dTsol +2.00 K, dTliq -6.30 K, dH -0.04 J/g (7 s)
+      dsc id=-102: dTsol +1.96 K, dTliq -0.16 K, dH +0.02 J/g (8 s)
+      dsc id=-103: dTsol +2.00 K, dTliq -2.07 K, dH +0.01 J/g (8 s)
+       A1 id=-200: dTsol +2.11 K, dTliq -5.96 K, dH -0.04 J/g (7 s)
+A1: n=1 max|dTsol|=2.11 K, max|dTliq|=5.96 K, max|dH|=0.0 J/g, max step dliq=0.071, repairs=0
+dsc: n=4 max|dTsol|=7.81 K, max|dTliq|=7.83 K, max|dH|=0.0 J/g, max step dliq=0.158, repairs=0
+random: n=12 max|dTsol|=6.16 K, max|dTliq|=7.83 K, max|dH|=0.1 J/g, max step dliq=0.148, repairs=0
+shortlist: n=6 max|dTsol|=5.93 K, max|dTliq|=7.84 K, max|dH|=0.1 J/g, max step dliq=0.067, repairs=0
+Wrote results/melt_grid_audit.csv

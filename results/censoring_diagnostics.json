@@ -1,0 +1,102 @@
+{
+  "target_counts": {
+    "T_gp_solvus": {
+      "train_valid": 302,
+      "test_valid": 61,
+      "total_valid": 363
+    },
+    "T_solidus": {
+      "train_valid": 354,
+      "test_valid": 67,
+      "total_valid": 421
+    },
+    "T_liquidus": {
+      "train_valid": 351,
+      "test_valid": 66,
+      "total_valid": 417
+    },
+    "dH_fusion_J_per_g": {
+      "train_valid": 350,
+      "test_valid": 66,
+      "total_valid": 416
+    },
+    "gp_frac_900C": {
+      "train_valid": 355,
+      "test_valid": 67,
+      "total_valid": 422
+    }
+  },
+  "selected_candidate_distances_to_valid_labels": [
+    {
+      "rank": 1,
+      "d_valid_T_gp_solvus": 0.6746829662907516,
+      "d_valid_T_solidus": 0.6746829662907516,
+      "d_valid_T_liquidus": 0.6746829662907516,
+      "d_valid_dH_fusion_J_per_g": 0.6746829662907516,
+      "d_valid_gp_frac_900C": 0.6746829662907516
+    },
+    {
+      "rank": 2,
+      "d_valid_T_gp_solvus": 0.897278821504322,
+      "d_valid_T_solidus": 0.897278821504322,
+      "d_valid_T_liquidus": 0.897278821504322,
+      "d_valid_dH_fusion_J_per_g": 0.897278821504322,
+      "d_valid_gp_frac_900C": 0.897278821504322
+    },
+    {
+      "rank": 3,
+      "d_valid_T_gp_solvus": 1.0273957792719348,
+      "d_valid_T_solidus": 1.0273957792719348,
+      "d_valid_T_liquidus": 1.0273957792719348,
+      "d_valid_dH_fusion_J_per_g": 1.0273957792719348,
+      "d_valid_gp_frac_900C": 1.0273957792719348
+    },
+    {
+      "rank": 4,
+      "d_valid_T_gp_solvus": 0.6524109998892658,
+      "d_valid_T_solidus": 0.6524109998892658,
+      "d_valid_T_liquidus": 0.6524109998892658,
+      "d_valid_dH_fusion_J_per_g": 0.6524109998892658,
+      "d_valid_gp_frac_900C": 0.6524109998892658
+    },
+    {
+      "rank": 5,
+      "d_valid_T_gp_solvus": 0.7223534047273665,
+      "d_valid_T_solidus": 0.7223534047273665,
+      "d_valid_T_liquidus": 0.7223534047273665,
+      "d_valid_dH_fusion_J_per_g": 0.7223534047273665,
+      "d_valid_gp_frac_900C": 0.7223534047273665
+    },
+    {
+      "rank": 6,
+      "d_valid_T_gp_solvus": 0.7966345702856804,
+      "d_valid_T_solidus": 0.7966345702856804,
+      "d_valid_T_liquidus": 0.7966345702856804,
+      "d_valid_dH_fusion_J_per_g": 0.7966345702856804,
+      "d_valid_gp_frac_900C": 0.7966345702856804
+    }
+  ],
+  "cloud_stats": {
+    "d_solvus_valid_cloud_median": 1.0501658739892648,
+    "d_solvus_valid_top1pct_median": 0.9803645864203101,
+    "d_solvus_valid_top1pct_p90": 1.2789317275999903,
+    "corr_W_vs_d_solvus_valid": -0.23008717555903976
+  },
+  "corner_definition": {
+    "Al_mean": 5.5057101947136955,
+    "Al_sd": 0.6759645352740157,
+    "Ti_mean": 3.9553851153327786,
+    "Ti_sd": 1.0995000477865886,
+    "Al_thr": 5.843692462350703,
+    "Ti_thr": 4.505135139226073
+  },
+  "corner_screen_sensitivity": {
+    "n_cloud": 20000,
+    "n_in_corner": 297,
+    "best_W_all_K": 259.74785701536484,
+    "best_W_excl_corner_K": 259.74785701536484,
+    "best_W_excl_corner_and_near_valid_labels_K": 259.74785701536484,
+    "rank1_unchanged": true,
+    "solvus_self_coverage_radius": 1.7857822938607049
+  }
+}

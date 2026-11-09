@@ -1,0 +1,19 @@
+ 1 step 5K pdens 1000: Tsol=1580.1 Tliq=1644.9 jump=0.15 at 1635 K (80 s)
+   below: {'FCC_A1': 0.224, 'LIQUID': 0.776}
+   above: {'FCC_A1': 0.071, 'LIQUID': 0.929}
+ 3 step 5K pdens 1000: Tsol=1535.0 Tliq=1540.0 jump=1.00 at 1535 K (118 s)
+   below: {'FCC_A1': 0.99}
+   above: {'LIQUID': 1.0}
+A1 step 5K pdens 1000: Tsol=1450.0 Tliq=1500.0 jump=1.00 at 1495 K (163 s)
+   below: {'FCC_A1': 1.0}
+   above: {'LIQUID': 1.0}
+ 1 step 2K pdens 2000: Tsol=1582.0 Tliq=1643.6 jump=0.07 at 1640 K (341 s)
+   below: {'FCC_A1': 0.071, 'LIQUID': 0.929}
+   above: {'LIQUID': 0.995}
+ 3 step 2K pdens 2000: Tsol=1590.1 Tliq=1639.9 jump=0.06 at 1600 K (304 s)
+   below: {'FCC_A1': 0.761, 'LIQUID': 0.235}
+   above: {'FCC_A1': 0.7, 'LIQUID': 0.298}
+A1 step 2K pdens 2000: Tsol=1518.0 Tliq=1520.0 jump=1.00 at 1518 K (330 s)
+   below: {'FCC_A1': 1.0}
+   above: {'LIQUID': 1.0}
+Wrote results/fullphase_convergence.csv

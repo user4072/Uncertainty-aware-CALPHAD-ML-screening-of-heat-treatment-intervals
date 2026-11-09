@@ -1,0 +1,75 @@
+Fitting train-only GPs ...
+C:\Users\Lion\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 5 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\Lion\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 5 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\Lion\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 5 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\Lion\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 5 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  T_gp_solvus: 302 training alloys
+  T_solidus: 354 training alloys
+  T_liquidus: 351 training alloys
+C:\Users\Lion\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 3 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\Lion\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 3 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\Lion\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 3 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\Lion\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\gaussian_process\kernels.py:455: ConvergenceWarning: The optimal value found for dimension 3 of parameter k1__k2__length_scale is close to the specified upper bound 100.0. Increasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  dH_fusion_J_per_g: 350 training alloys
+C:\Users\Lion\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\gaussian_process\kernels.py:445: ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-08. Decreasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\Lion\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\gaussian_process\kernels.py:445: ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-08. Decreasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\Lion\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\gaussian_process\kernels.py:445: ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-08. Decreasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\Lion\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\gaussian_process\kernels.py:445: ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-08. Decreasing the bound and calling fit again may find a better value.
+  warnings.warn(
+C:\Users\Lion\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\sklearn\gaussian_process\kernels.py:445: ConvergenceWarning: The optimal value found for dimension 0 of parameter k2__noise_level is close to the specified lower bound 1e-08. Decreasing the bound and calling fit again may find a better value.
+  warnings.warn(
+  gp_frac_900C: 355 training alloys
+E:\projects\pycalphad\dsc\scripts\design_robustness.py:80: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  X = qmc.scale(qmc.Sobol(d=len(FEATURES), scramble=True, seed=7).random(120000), lo, hi)
+Train-only trust radius: 1.771; inside 105075
+Feasible 58181; selected 6
+  rank 1: W train 268.6, CALPHAD 275.0
+  rank 2: W train 259.1, CALPHAD 264.8
+  rank 3: W train 256.5, CALPHAD 253.1
+  rank 4: W train 254.6, CALPHAD 251.7
+  rank 5: W train 254.5, CALPHAD 252.7
+  rank 6: W train 254.4, CALPHAD 256.4
+{
+  "trust_radius_train_only": 1.7706992740147465,
+  "n_feasible": 58181,
+  "n_selected": 6,
+  "validation_time_s": 88.2657859325409,
+  "best_calphad_window_K": 274.9533887076509,
+  "best_composition": {
+    "Co": 18.28497774899006,
+    "Cr": 14.635092217475176,
+    "Al": 3.398052742239088,
+    "Mo": 5.608794773928821,
+    "Ti": 2.1347656305879354,
+    "C": 0.00010502985678613186
+  },
+  "rene77": {
+    "W_K": 150.54118217514247,
+    "T_solidus": 1570.2405355028714,
+    "T_gp_solvus": 1419.6993533277289,
+    "gp_frac_900C": 0.52853836415131
+  },
+  "decomposition": {
+    "delta_solidus_K": 29.850846486445107,
+    "delta_solvus_K": -94.56136004606333,
+    "delta_window_K": 124.41220653250843,
+    "delta_gp_frac_900C": -0.10785535147770015
+  },
+  "train_only_vs_deployed": {
+    "mean_abs_W_difference_K": 0.7405127201125575,
+    "max_abs_W_difference_K": 1.0822436289361121
+  },
+  "mean_abs_prediction_error_K": 3.676340112940617,
+  "max_abs_prediction_error_K": 6.305685013717948
+}

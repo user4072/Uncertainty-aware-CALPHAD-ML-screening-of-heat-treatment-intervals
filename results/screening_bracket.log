@@ -1,0 +1,33 @@
+E:\projects\pycalphad\dsc\scripts\screening_benchmark.py:133: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  X = qmc.scale(qmc.Sobol(d=len(FEATURES), scramble=True, seed=args.seed).random(args.n_candidates), lo, hi)
+Feasible: 56471 of 120000 (trust radius 1.689)
+mean  top-6 predicted W: 259.7, 257.5, 255.2, 254.4, 253.9, 253.6
+lcb1  top-6 predicted W: 259.7, 257.5, 255.2, 254.4, 253.9, 253.6
+lcb2  top-6 predicted W: 259.7, 257.5, 254.4, 253.9, 255.2, 253.6
+random top-6 predicted W: 104.9, 76.4, 121.3, 102.9, 50.2, 171.0
+  [mean] rank 1: pred 259.7 +/- 4.3 -> CALPHAD 264.8 K
+  [mean] rank 2: pred 257.5 +/- 4.9 -> CALPHAD 253.1 K
+  [mean] rank 3: pred 255.2 +/- 4.6 -> CALPHAD 252.5 K
+  [mean] rank 4: pred 254.4 +/- 3.9 -> CALPHAD 256.4 K
+  [mean] rank 5: pred 253.9 +/- 3.9 -> CALPHAD 252.7 K
+  [mean] rank 6: pred 253.6 +/- 4.0 -> CALPHAD 254.9 K
+  [lcb2] rank 1: pred 259.7 +/- 4.3 -> CALPHAD 264.8 K
+  [lcb2] rank 2: pred 257.5 +/- 4.9 -> CALPHAD 253.1 K
+  [lcb2] rank 3: pred 254.4 +/- 3.9 -> CALPHAD 256.4 K
+  [lcb2] rank 4: pred 253.9 +/- 3.9 -> CALPHAD 252.7 K
+  [lcb2] rank 5: pred 255.2 +/- 4.6 -> CALPHAD 252.5 K
+  [lcb2] rank 6: pred 253.6 +/- 4.0 -> CALPHAD 254.9 K
+  [random] rank 1: pred 104.9 +/- 5.1 -> CALPHAD 100.5 K
+  [random] rank 2: pred 76.4 +/- 4.4 -> CALPHAD 70.5 K
+  [random] rank 3: pred 121.3 +/- 4.2 -> CALPHAD 121.4 K
+  [random] rank 4: pred 102.9 +/- 3.5 -> CALPHAD 104.7 K
+  [random] rank 5: pred 50.2 +/- 4.1 -> CALPHAD 53.3 K
+  [random] rank 6: pred 171.0 +/- 4.1 -> CALPHAD 169.5 K
+
+Summary
+  lcb1   best  264.8  mean  255.7  bias   +0.0  MAE   2.8  overlap 6/6
+  lcb2   best  264.8  mean  255.7  bias   +0.0  MAE   2.8  overlap 6/6
+  mean   best  264.8  mean  255.7  bias   +0.0  MAE   2.8  overlap 6/6
+  random best  169.5  mean  103.3  bias   -1.1  MAE   2.8  overlap 0/6
+  direct 480-alloy CALPHAD: best feasible 253.1 K of 247 feasible, 1 above 240 K
+Wrote results/screening_benchmark.{csv,json} in 922 s

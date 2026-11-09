@@ -1,0 +1,283 @@
+{
+  "design_alloy": {
+    "rank": 1,
+    "T_solidus_K": 1570.2376040398851,
+    "T_gp_solvus_K": 1305.4120483991069,
+    "W_K": 264.82555564077825
+  },
+  "rene77": {
+    "T_solidus_K": 1570.2405355028714,
+    "T_gp_solvus_K": 1419.6993533277289,
+    "W_K": 150.54118217514247
+  },
+  "gain_K": 114.28437346563578,
+  "common_mode": [
+    {
+      "solvus_shift_K": -80.0,
+      "W_design_K": 344.82555564077825,
+      "W_rene77_K": 230.54118217514247,
+      "gain_K": 114.28437346563578
+    },
+    {
+      "solvus_shift_K": -40.0,
+      "W_design_K": 304.82555564077825,
+      "W_rene77_K": 190.54118217514247,
+      "gain_K": 114.28437346563578
+    },
+    {
+      "solvus_shift_K": -20.0,
+      "W_design_K": 284.82555564077825,
+      "W_rene77_K": 170.54118217514247,
+      "gain_K": 114.28437346563578
+    },
+    {
+      "solvus_shift_K": 0.0,
+      "W_design_K": 264.82555564077825,
+      "W_rene77_K": 150.54118217514247,
+      "gain_K": 114.28437346563578
+    },
+    {
+      "solvus_shift_K": 20.0,
+      "W_design_K": 244.82555564077825,
+      "W_rene77_K": 130.54118217514247,
+      "gain_K": 114.28437346563578
+    },
+    {
+      "solvus_shift_K": 40.0,
+      "W_design_K": 224.82555564077825,
+      "W_rene77_K": 110.54118217514247,
+      "gain_K": 114.28437346563578
+    },
+    {
+      "solvus_shift_K": 80.0,
+      "W_design_K": 184.82555564077825,
+      "W_rene77_K": 70.54118217514247,
+      "gain_K": 114.28437346563578
+    }
+  ],
+  "differential": [
+    {
+      "bias_design_K": -50.0,
+      "bias_rene77_K": -50.0,
+      "gain_K": 114.28437346563578
+    },
+    {
+      "bias_design_K": -50.0,
+      "bias_rene77_K": -25.0,
+      "gain_K": 139.28437346563578
+    },
+    {
+      "bias_design_K": -50.0,
+      "bias_rene77_K": 0.0,
+      "gain_K": 164.28437346563578
+    },
+    {
+      "bias_design_K": -50.0,
+      "bias_rene77_K": 25.0,
+      "gain_K": 189.28437346563578
+    },
+    {
+      "bias_design_K": -50.0,
+      "bias_rene77_K": 50.0,
+      "gain_K": 214.28437346563578
+    },
+    {
+      "bias_design_K": -25.0,
+      "bias_rene77_K": -50.0,
+      "gain_K": 89.28437346563578
+    },
+    {
+      "bias_design_K": -25.0,
+      "bias_rene77_K": -25.0,
+      "gain_K": 114.28437346563578
+    },
+    {
+      "bias_design_K": -25.0,
+      "bias_rene77_K": 0.0,
+      "gain_K": 139.28437346563578
+    },
+    {
+      "bias_design_K": -25.0,
+      "bias_rene77_K": 25.0,
+      "gain_K": 164.28437346563578
+    },
+    {
+      "bias_design_K": -25.0,
+      "bias_rene77_K": 50.0,
+      "gain_K": 189.28437346563578
+    },
+    {
+      "bias_design_K": 0.0,
+      "bias_rene77_K": -50.0,
+      "gain_K": 64.28437346563578
+    },
+    {
+      "bias_design_K": 0.0,
+      "bias_rene77_K": -25.0,
+      "gain_K": 89.28437346563578
+    },
+    {
+      "bias_design_K": 0.0,
+      "bias_rene77_K": 0.0,
+      "gain_K": 114.28437346563578
+    },
+    {
+      "bias_design_K": 0.0,
+      "bias_rene77_K": 25.0,
+      "gain_K": 139.28437346563578
+    },
+    {
+      "bias_design_K": 0.0,
+      "bias_rene77_K": 50.0,
+      "gain_K": 164.28437346563578
+    },
+    {
+      "bias_design_K": 25.0,
+      "bias_rene77_K": -50.0,
+      "gain_K": 39.28437346563578
+    },
+    {
+      "bias_design_K": 25.0,
+      "bias_rene77_K": -25.0,
+      "gain_K": 64.28437346563578
+    },
+    {
+      "bias_design_K": 25.0,
+      "bias_rene77_K": 0.0,
+      "gain_K": 89.28437346563578
+    },
+    {
+      "bias_design_K": 25.0,
+      "bias_rene77_K": 25.0,
+      "gain_K": 114.28437346563578
+    },
+    {
+      "bias_design_K": 25.0,
+      "bias_rene77_K": 50.0,
+      "gain_K": 139.28437346563578
+    },
+    {
+      "bias_design_K": 50.0,
+      "bias_rene77_K": -50.0,
+      "gain_K": 14.284373465635781
+    },
+    {
+      "bias_design_K": 50.0,
+      "bias_rene77_K": -25.0,
+      "gain_K": 39.28437346563578
+    },
+    {
+      "bias_design_K": 50.0,
+      "bias_rene77_K": 0.0,
+      "gain_K": 64.28437346563578
+    },
+    {
+      "bias_design_K": 50.0,
+      "bias_rene77_K": 25.0,
+      "gain_K": 89.28437346563578
+    },
+    {
+      "bias_design_K": 50.0,
+      "bias_rene77_K": 50.0,
+      "gain_K": 114.28437346563578
+    }
+  ],
+  "monte_carlo": [
+    {
+      "solvus_sigma_K": 0.0,
+      "gain_mean_K": 114.2864775202931,
+      "gain_p05_K": 57.11798139711045,
+      "gain_p50_K": 114.29031986566612,
+      "gain_p95_K": 171.5450073177848,
+      "prob_gain_positive": 0.99947
+    },
+    {
+      "solvus_sigma_K": 10.0,
+      "gain_mean_K": 114.2082959786979,
+      "gain_p05_K": 52.343585723185775,
+      "gain_p50_K": 114.1685611322632,
+      "gain_p95_K": 176.12530271231407,
+      "prob_gain_positive": 0.998835
+    },
+    {
+      "solvus_sigma_K": 20.0,
+      "gain_mean_K": 114.3137751587604,
+      "gain_p05_K": 40.58043590252491,
+      "gain_p50_K": 114.25437357744968,
+      "gain_p95_K": 187.99848663446843,
+      "prob_gain_positive": 0.994705
+    },
+    {
+      "solvus_sigma_K": 30.0,
+      "gain_mean_K": 114.26410955037845,
+      "gain_p05_K": 23.930911065699274,
+      "gain_p50_K": 114.33967573263699,
+      "gain_p95_K": 204.40064882689322,
+      "prob_gain_positive": 0.98095
+    },
+    {
+      "solvus_sigma_K": 40.0,
+      "gain_mean_K": 114.29017227416625,
+      "gain_p05_K": 4.528326268154812,
+      "gain_p50_K": 114.20122081787471,
+      "gain_p95_K": 223.79431361877127,
+      "prob_gain_positive": 0.956975
+    }
+  ],
+  "absolute": [
+    {
+      "solvus_sigma_K": 0.0,
+      "W_mean_K": 271.33104398442964,
+      "W_p05_K": 230.44330646302853,
+      "W_p95_K": 312.3208389449824
+    },
+    {
+      "solvus_sigma_K": 10.0,
+      "W_mean_K": 271.4211443211449,
+      "W_p05_K": 227.302239373253,
+      "W_p95_K": 315.69525677005225
+    },
+    {
+      "solvus_sigma_K": 20.0,
+      "W_mean_K": 271.3218054085811,
+      "W_p05_K": 218.68026790323995,
+      "W_p95_K": 324.0382194653651
+    },
+    {
+      "solvus_sigma_K": 30.0,
+      "W_mean_K": 271.58404539926977,
+      "W_p05_K": 207.29555805579017,
+      "W_p95_K": 335.77277312584397
+    },
+    {
+      "solvus_sigma_K": 40.0,
+      "W_mean_K": 271.3181419583422,
+      "W_p05_K": 194.19944164671315,
+      "W_p95_K": 348.8968174368644
+    }
+  ],
+  "solvus_definitions": {
+    "our_calphad_K": 1419.6993533277289,
+    "our_calphad_C": 1146.549353327729,
+    "thermocalc_tcni10_C": 1139.0,
+    "dsc_secondary_C": 1229.0,
+    "our_minus_tcni10_K": 7.549353327729023,
+    "dsc_minus_tcni10_K": 90.0,
+    "dsc_minus_our_K": 82.45064667227098
+  },
+  "sigma_solidus_bias_K": 6.593379916359879,
+  "sigma_solidus_K": 24.55618387693409,
+  "sigma_solidus_n": 4,
+  "sigma_W_absolute_K": 39.02891449422848,
+  "sigma_gp_W_K": 4.5,
+  "sigma_solvus_grid_K": [
+    0.0,
+    10.0,
+    20.0,
+    30.0,
+    40.0
+  ],
+  "n_draws": 200000,
+  "seed": 20261030,
+  "note": "Solvus sigma is a sensitivity prior, not a measured uncertainty; the solidus sigma is the measured residual standard deviation over the reference anchors."
+}

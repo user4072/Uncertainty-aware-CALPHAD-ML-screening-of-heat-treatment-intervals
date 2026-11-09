@@ -1,0 +1,9 @@
+{
+  "n_steps": 6,
+  "constraint_C_min_wt": 0.03,
+  "best_calphad_K": 255.81555064375243,
+  "mean_calphad_K": 253.07444755072956,
+  "overlap_with_production_shortlist": 2,
+  "total_calphad_s": 332.8302993774414,
+  "wall_s": 563.4021458625793
+}

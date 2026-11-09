@@ -1,0 +1,51 @@
+{
+  "n_boot": 4000,
+  "seed": 20261030,
+  "paired_gp_vs_best_baseline": {
+    "T_gp_solvus": {
+      "compared_with": "pce",
+      "rmse_gp": 2.28575292016999,
+      "rmse_other": 3.421493169272454,
+      "improvement_pct": 33.19428661445985,
+      "diff_lo": 0.655331607286231,
+      "diff_hi": 1.6054474800931784,
+      "prob_gp_better": 1.0
+    },
+    "T_solidus": {
+      "compared_with": "nn",
+      "rmse_gp": 4.100250908649049,
+      "rmse_other": 4.449607130032394,
+      "improvement_pct": 7.8513947675376325,
+      "diff_lo": -0.6360932345743516,
+      "diff_hi": 1.3269979729035881,
+      "prob_gp_better": 0.77325
+    },
+    "T_liquidus": {
+      "compared_with": "pce",
+      "rmse_gp": 3.3138068584773297,
+      "rmse_other": 3.3036961444904587,
+      "improvement_pct": -0.30604249133905853,
+      "diff_lo": -0.30412617020227495,
+      "diff_hi": 0.2834717138618096,
+      "prob_gp_better": 0.46975
+    },
+    "dH_fusion_J_per_g": {
+      "compared_with": "pce",
+      "rmse_gp": 0.16483956590343485,
+      "rmse_other": 0.33029238372892755,
+      "improvement_pct": 50.092834705289654,
+      "diff_lo": 0.10787050371171514,
+      "diff_hi": 0.2179464410043153,
+      "prob_gp_better": 1.0
+    },
+    "gp_frac_900C": {
+      "compared_with": "nn",
+      "rmse_gp": 0.006977604068671751,
+      "rmse_other": 0.011073550795013166,
+      "improvement_pct": 36.9885577098357,
+      "diff_lo": 0.002057841935997229,
+      "diff_hi": 0.00639317377432358,
+      "prob_gp_better": 1.0
+    }
+  }
+}

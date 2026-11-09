@@ -1,0 +1,8 @@
+Rene77   full: Tsol= 1535.0 K Tliq= 1540.0 K dH=  250.7 J/g max jump=1.00
+IN100    full: Tsol= 1505.0 K Tliq= 1605.0 K dH=  228.2 J/g max jump=0.79
+Nimonic105 full: Tsol= 1580.1 K Tliq= 1630.0 K dH=  270.2 J/g max jump=0.16
+Nimonic115 full: Tsol= 1565.0 K Tliq= 1570.0 K dH=  245.0 J/g max jump=1.00
+IN713C   full: Tsol= 1605.0 K Tliq= 1640.0 K dH=  308.2 J/g max jump=0.26
+IN738LC  full: Tsol= 1600.0 K Tliq= 1639.9 K dH=  262.5 J/g max jump=0.25
+
+Wrote E:\projects\pycalphad\dsc\results\fullphase_melting.csv

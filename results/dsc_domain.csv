@@ -1,0 +1,7 @@
+alloy,role,omitted_wt,omitted_note,omitted_class,knn_dist_6d,knn_percentile,inside_knn_radius,chemically_in_domain,trace_only,solidus_error_K,liquidus_error_K,dH_error_J_per_g
+Rene77,calibration,0.0,all solutes represented,none,0.9017009136553199,31.5,True,True,False,-4.90946449742205,4.63576807038794,9.850090361853688
+IN100,calibration,0.82,V absent from database,minor,1.1629980771577786,75.5,True,True,False,26.898660239660558,20.660272046648288,13.591216960066646
+Nimonic105,validation,0.055,trace B and Zr only; nominal composition,trace,1.3660254357765542,93.25,True,True,True,-22.563213436555998,11.803317604361155,
+Nimonic115,validation,0.055,trace B and Zr only; nominal composition,trace,1.2439657022252688,85.5,True,True,True,26.947537359757007,21.683473475834944,
+IN713C,projection,2.27,Nb and Ta reported together; both absent,projection,1.242066966989928,85.25,True,False,False,-18.091281967763734,17.81452056789135,127.55231311263736
+IN738LC,stress,5.1,Ta and W omitted; Nb absent; six-solute projection,projection,0.9261886448584191,35.5,True,False,False,88.87689696022449,44.80260826250242,

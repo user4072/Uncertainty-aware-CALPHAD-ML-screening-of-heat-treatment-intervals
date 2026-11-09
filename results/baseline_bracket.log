@@ -1,0 +1,6 @@
+T_gp_solvus          linear=0.9013  quadratic=0.9925  random_forest=0.8804
+T_solidus            linear=0.7500  quadratic=0.9337  random_forest=0.7760
+T_liquidus           linear=0.9676  quadratic=0.9756  random_forest=0.8534
+dH_fusion_J_per_g    linear=0.9851  quadratic=0.9992  random_forest=0.9549
+gp_frac_900C         linear=0.9485  quadratic=0.9850  random_forest=0.9365
+Wrote E:\projects\pycalphad\dsc\results\baseline_metrics.csv

@@ -1,0 +1,18 @@
+# Exact environment used to generate the results in this repository.
+# Python 3.12 is required (pycalphad 0.11.2 and the pinned wheels are not
+# available for the older interpreter that ships with some systems).
+#
+#   py -3.12 -m pip install -r requirements.txt
+#
+pycalphad==0.11.2
+numpy==2.5.2
+scipy==1.18.0
+scikit-learn==1.9.0
+pandas==3.0.5
+matplotlib==3.11.1
+PyYAML==6.0.3
+joblib==1.5.3
+tqdm==4.70.0
+symengine==0.13.0
+tinydb==4.9.0
+xarray==2026.4.0

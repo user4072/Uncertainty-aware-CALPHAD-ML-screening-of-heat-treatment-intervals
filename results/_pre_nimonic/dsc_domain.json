@@ -1,0 +1,67 @@
+{
+  "solutes": [
+    "Co",
+    "Cr",
+    "Al",
+    "Mo",
+    "Ti",
+    "C"
+  ],
+  "n_train": 400,
+  "knn_radius_p99": 1.5138743241525745,
+  "alloys": [
+    {
+      "alloy": "Rene77",
+      "role": "calibration",
+      "omitted_wt": 0.0,
+      "omitted_note": "all solutes represented",
+      "knn_dist_6d": 0.9017009136553199,
+      "knn_percentile": 31.5,
+      "inside_knn_radius": true,
+      "chemically_in_domain": true,
+      "solidus_error_K": -4.909464497128738,
+      "liquidus_error_K": 4.635768071802204,
+      "dH_error_J_per_g": 9.850090338529924
+    },
+    {
+      "alloy": "IN100",
+      "role": "calibration",
+      "omitted_wt": 0.82,
+      "omitted_note": "V absent from database",
+      "knn_dist_6d": 1.1629980771577786,
+      "knn_percentile": 75.5,
+      "inside_knn_radius": true,
+      "chemically_in_domain": false,
+      "solidus_error_K": 26.898660239652372,
+      "liquidus_error_K": 20.660272049983405,
+      "dH_error_J_per_g": 13.591216914520857
+    },
+    {
+      "alloy": "IN713C",
+      "role": "calibration",
+      "omitted_wt": 2.27,
+      "omitted_note": "Nb and Ta reported together; both absent",
+      "knn_dist_6d": 1.242066966989928,
+      "knn_percentile": 85.25,
+      "inside_knn_radius": true,
+      "chemically_in_domain": false,
+      "solidus_error_K": -18.091281967777377,
+      "liquidus_error_K": 17.81452056831199,
+      "dH_error_J_per_g": 127.55231327120373
+    },
+    {
+      "alloy": "IN738LC",
+      "role": "stress",
+      "omitted_wt": 5.1,
+      "omitted_note": "Ta and W omitted; Nb absent; six-solute projection",
+      "knn_dist_6d": 0.9261886448584191,
+      "knn_percentile": 35.5,
+      "inside_knn_radius": true,
+      "chemically_in_domain": false,
+      "solidus_error_K": 88.87689696022426,
+      "liquidus_error_K": 44.802608266984635,
+      "dH_error_J_per_g": NaN
+    }
+  ],
+  "note": "chemically_in_domain is false when the alloy contains solutes absent from the database."
+}

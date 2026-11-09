@@ -1,0 +1,25 @@
+{
+  "n_feasible": 56471,
+  "ndraw": 2000,
+  "draw_size": 6,
+  "best_predicted_K": {
+    "median": 160.98136549320304,
+    "p025": 99.20431182317459,
+    "p975": 221.21186603603812,
+    "max": 257.46947117242007
+  },
+  "mean_predicted_K": {
+    "median": 97.11574880602322,
+    "p025": 58.109648181470966,
+    "p975": 138.867981994387
+  },
+  "prob_best_above_240": 0.004,
+  "prob_best_above_250": 0.0015,
+  "prob_best_above_254_9": 0.0005,
+  "diversity_shortlist_mean_pairwise_z": 0.996526394237595,
+  "diversity_random_median": 3.0700954790032715,
+  "diversity_random_p025": 2.478113792250533,
+  "diversity_random_p975": 3.6466216904058073,
+  "box_constraint_satisfaction": 0.4724,
+  "n_box": 20000
+}

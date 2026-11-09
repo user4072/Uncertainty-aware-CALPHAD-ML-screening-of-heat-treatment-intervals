@@ -1,0 +1,8 @@
+T_solvus (K)           n= 61  z=+0.14  sd_z=0.60  PICP95=0.984  width95=9.42  target sd=65.9
+T_solidus (K)          n= 67  z=+0.08  sd_z=1.04  PICP95=0.955  width95=14.8  target sd=22.3
+T_liquidus (K)         n= 66  z=-0.20  sd_z=0.84  PICP95=1.000  width95=15.4  target sd=22.2
+dH_fusion (J/g)        n= 66  z=-0.00  sd_z=0.74  PICP95=0.985  width95=0.846  target sd=20.5
+f_gamma' (900 C)       n= 67  z=+0.03  sd_z=0.97  PICP95=0.955  width95=0.0266  target sd=0.164
+W = Tsol - Tsolvus     n= 61  z=-0.09  sd_z=1.01  PICP95=0.934  width95=16.8  target sd=69.9
+
+Wrote results/interval_calibration.{csv,json}

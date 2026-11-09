@@ -1,0 +1,4 @@
+           target unit  mae_gp_vs_calphad  mae_calphad_vs_dsc  mae_gp_vs_dsc  surrogate_share_pct  mean_residual    ci95_low  ci95_high  constant_bias_supported  loo_corrected_mae  loo_changes_mae
+        T_solidus    K           4.628384           16.633136      19.057466            27.826284       1.299305  -56.155495  58.754104                    False          25.599356         8.966220
+       T_liquidus    K           3.556300           14.370187      15.721177            24.747764      14.370187   -6.867921  35.608294                    False           9.734419        -4.635768
+dH_fusion_J_per_g  J/g           0.606231           50.331207      50.884971             1.204484      50.331207 -115.861569 216.523983                    False          77.221106        26.889900

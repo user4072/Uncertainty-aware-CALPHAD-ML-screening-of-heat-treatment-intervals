@@ -1,0 +1,142 @@
+{
+  "n_anchors": 4,
+  "targets": {
+    "T_solidus": {
+      "label": "Solidus",
+      "unit": "K",
+      "n_anchors": 4,
+      "alloys": [
+        "Rene77",
+        "IN100",
+        "Nimonic105",
+        "Nimonic115"
+      ],
+      "observed": [
+        1575.15,
+        1563.15,
+        1563.15,
+        1533.15
+      ],
+      "calphad": [
+        1570.240535502578,
+        1590.0486602396606,
+        1540.586786563444,
+        1560.097537359757
+      ],
+      "gp": [
+        1573.5466151797068,
+        1592.236149388584,
+        1546.0993422435697,
+        1561.5939390824915
+      ],
+      "residual_calphad_minus_dsc": [
+        -4.90946449742205,
+        26.898660239660558,
+        -22.563213436555998,
+        26.947537359757007
+      ],
+      "mae_calphad_vs_dsc": 20.329718883348903,
+      "mae_gp_vs_dsc": 19.046032761949732,
+      "mae_gp_vs_calphad": 3.1256315572280187,
+      "surrogate_share_pct": 15.374691480795995,
+      "mean_residual": 6.593379916359879,
+      "sd_residual": 24.55618387693409,
+      "se_residual": 12.278091938467044,
+      "ci95_mean_residual": [
+        -32.480988409148246,
+        45.667748241868004
+      ],
+      "constant_bias_supported": false,
+      "loo_corrected_mae": 27.106291844465204,
+      "loo_changes_mae": 6.776572961116301
+    },
+    "T_liquidus": {
+      "label": "Liquidus",
+      "unit": "K",
+      "n_anchors": 4,
+      "alloys": [
+        "Rene77",
+        "IN100",
+        "Nimonic105",
+        "Nimonic115"
+      ],
+      "observed": [
+        1625.15,
+        1609.15,
+        1618.15,
+        1588.15
+      ],
+      "calphad": [
+        1629.785768070388,
+        1629.8102720466484,
+        1629.9533176043612,
+        1609.833473475835
+      ],
+      "gp": [
+        1626.4778028301744,
+        1630.5246008814484,
+        1636.453053263078,
+        1610.2858198156232
+      ],
+      "residual_calphad_minus_dsc": [
+        4.63576807038794,
+        20.660272046648288,
+        11.803317604361155,
+        21.683473475834944
+      ],
+      "mae_calphad_vs_dsc": 14.695707799308082,
+      "mae_gp_vs_dsc": 15.785319197580861,
+      "mae_gp_vs_calphad": 2.7435940183796106,
+      "surrogate_share_pct": 18.669356085787086,
+      "mean_residual": 14.695707799308082,
+      "sd_residual": 8.041003341209498,
+      "se_residual": 4.020501670604749,
+      "ci95_mean_residual": [
+        1.900677112305024,
+        27.490738486311137
+      ],
+      "constant_bias_supported": true,
+      "loo_corrected_mae": 8.634886615911455,
+      "loo_changes_mae": -6.060821183396627
+    },
+    "dH_fusion_J_per_g": {
+      "label": "Fusion enthalpy",
+      "unit": "J/g",
+      "n_anchors": 2,
+      "alloys": [
+        "Rene77",
+        "IN100"
+      ],
+      "observed": [
+        237.41,
+        230.16
+      ],
+      "calphad": [
+        247.26009036185368,
+        243.75121696006664
+      ],
+      "gp": [
+        247.18138890354297,
+        244.6092363071224
+      ],
+      "residual_calphad_minus_dsc": [
+        9.850090361853688,
+        13.591216960066646
+      ],
+      "mae_calphad_vs_dsc": 11.720653660960167,
+      "mae_gp_vs_dsc": 12.11031260533268,
+      "mae_gp_vs_calphad": 0.4683604026832313,
+      "surrogate_share_pct": 3.9960262987999835,
+      "mean_residual": 11.720653660960167,
+      "sd_residual": 2.6453759868737428,
+      "se_residual": 1.8705632991064787,
+      "ci95_mean_residual": [
+        -12.047106589461134,
+        35.48841391138147
+      ],
+      "constant_bias_supported": false,
+      "loo_corrected_mae": NaN,
+      "loo_changes_mae": NaN
+    }
+  }
+}

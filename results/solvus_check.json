@@ -1,0 +1,84 @@
+{
+  "compositions": {
+    "Rene77": {
+      "Co": 14.55,
+      "Cr": 14.42,
+      "Al": 4.16,
+      "Mo": 4.0,
+      "Ti": 3.38,
+      "C": 0.063
+    },
+    "Nimonic115_analyzed": {
+      "Co": 13.3,
+      "Cr": 14.34,
+      "Al": 4.98,
+      "Mo": 3.26,
+      "Ti": 3.79,
+      "C": 0.14
+    },
+    "Astroloy_nominal": {
+      "Co": 16.95,
+      "Cr": 14.7,
+      "Al": 4.0,
+      "Mo": 5.2,
+      "Ti": 3.5,
+      "C": 0.06
+    }
+  },
+  "literature": {
+    "Rene77": {
+      "equilibrium_lit": 1139.0,
+      "heating_C": 1229.0,
+      "heating_unc": null,
+      "cooling_C": null,
+      "incipient_melting_C": 1281.0,
+      "mc_dissolution_C": 1307.0,
+      "end_of_melting_C": 1355.0,
+      "heating_note": "DSC, 10 K/min, onset of secondary-$\\gamma'$ dissolution"
+    },
+    "Nimonic115_analyzed": {
+      "equilibrium_lit": null,
+      "heating_C": 1160.4,
+      "heating_unc": 4.6,
+      "cooling_C": 1133.6,
+      "cooling_unc": 1.8,
+      "heating_note": "DTA and dilatometry, 10 K/min (Shahriari 2009)"
+    },
+    "Astroloy_nominal": {
+      "equilibrium_lit": null,
+      "heating_C": 1150.0,
+      "heating_unc": 10.0,
+      "cooling_C": null,
+      "heating_note": "DTA, 10 K/min, graphical read-off (Sponseller 1996)"
+    }
+  },
+  "computed": {
+    "Rene77": {
+      "T_gp_solvus_K": 1412.0964187508089,
+      "T_gp_solvus_C": 1138.9464187508088,
+      "T_solidus_matrix_K": 1580.0473736383515,
+      "T_liquidus_matrix_K": 1629.9563768925968,
+      "solvus_refined": 1.0,
+      "computed_minus_heating_K": -90.1,
+      "computed_minus_equilibrium_lit_K": -0.1
+    },
+    "Nimonic115_analyzed": {
+      "T_gp_solvus_K": 1449.7327770837671,
+      "T_gp_solvus_C": 1176.5827770837673,
+      "T_solidus_matrix_K": 1570.1118050877765,
+      "T_liquidus_matrix_K": 1619.7815118276374,
+      "solvus_refined": 0.0,
+      "midpoint_C": 1147.0,
+      "computed_minus_midpoint_K": 29.6,
+      "computed_minus_heating_K": 16.2
+    },
+    "Astroloy_nominal": {
+      "T_gp_solvus_K": 1392.6094146927062,
+      "T_gp_solvus_C": 1119.459414692706,
+      "T_solidus_matrix_K": 1560.1172558586384,
+      "T_liquidus_matrix_K": 1619.9560108070943,
+      "solvus_refined": 1.0,
+      "computed_minus_heating_K": -30.5
+    }
+  }
+}

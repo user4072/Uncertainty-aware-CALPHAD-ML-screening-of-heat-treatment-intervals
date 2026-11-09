@@ -1,0 +1,22 @@
+C:\Users\Lion\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pycalphad\core\conditions.py:116: UserWarning: Some specified compositions are below the minimum allowed composition of 1e-10.
+  warnings.warn(
+A1 C=0.000: Tsol=1602.3 Tliq=1644.0 dH=245.9 W=277.2
+A1 C=0.002: Tsol=1598.2 Tliq=1644.0 dH=245.8 W=273.1
+A1 C=0.005: Tsol=1590.7 Tliq=1644.0 dH=245.7 W=265.5
+A1 C=0.010: Tsol=1578.9 Tliq=1644.0 dH=245.5 W=253.7
+A1 C=0.020: Tsol=1572.1 Tliq=1643.9 dH=245.9 W=247.0
+A1 C=0.050: Tsol=1574.1 Tliq=1641.9 dH=248.5 W=249.0
+A1 C=0.100: Tsol=1572.6 Tliq=1639.4 dH=252.8 W=247.5
+A1 C=0.150: Tsol=1572.1 Tliq=1635.9 dH=257.0 W=247.0
+C:\Users\Lion\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\pycalphad\core\conditions.py:116: UserWarning: Some specified compositions are below the minimum allowed composition of 1e-10.
+  warnings.warn(
+P1 C=0.000: Tsol=1600.0 Tliq=1644.0 dH=242.6 W=294.6
+P1 C=0.002: Tsol=1594.4 Tliq=1644.0 dH=242.5 W=289.0
+P1 C=0.005: Tsol=1588.1 Tliq=1643.9 dH=242.4 W=282.7
+P1 C=0.010: Tsol=1576.5 Tliq=1643.9 dH=242.2 W=271.0
+P1 C=0.020: Tsol=1568.1 Tliq=1643.8 dH=242.5 W=262.7
+P1 C=0.050: Tsol=1570.1 Tliq=1641.9 dH=245.1 W=264.7
+P1 C=0.100: Tsol=1568.4 Tliq=1638.0 dH=249.4 W=263.0
+P1 C=0.150: Tsol=1568.1 Tliq=1635.9 dH=253.6 W=262.7
+A1: solidus drop from C=0 to C=0.02 wt%: 30.2 K
+P1: solidus drop from C=0 to C=0.02 wt%: 31.9 K

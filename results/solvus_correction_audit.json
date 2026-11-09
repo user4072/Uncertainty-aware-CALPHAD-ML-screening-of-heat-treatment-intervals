@@ -1,0 +1,21 @@
+{
+  "n_total": 480,
+  "n_compared": 411,
+  "n_unrefined_before": 256,
+  "n_unrefined_after": 27,
+  "n_censored_before": 69,
+  "n_censored_after": 67,
+  "median_shift_K": -11.08522802420407,
+  "mean_shift_K": -9.047097543407265,
+  "min_shift_K": -20.541727897812052,
+  "max_shift_K": 0.8759140626395947,
+  "pct_change_gt5": 60.09732360097324,
+  "n_gt1": 250,
+  "n_gt5": 247,
+  "n_gt10": 230,
+  "n_gt15": 129,
+  "n_gt20": 6,
+  "W_median_increase_K": 11.08522802420407,
+  "W_max_increase_K": 20.541727897812052,
+  "frac_refined_after": 0.9346246973365617
+}

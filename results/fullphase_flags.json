@@ -1,0 +1,44 @@
+{
+  "rank1": {
+    "T_solidus_full_K": 1582.0112626564387,
+    "max_liquid_jump_per_step": 0.0664766603109617,
+    "resolved": true,
+    "valid": true
+  },
+  "rank2": {
+    "T_solidus_full_K": 1575.5553620914482,
+    "max_liquid_jump_per_step": 0.1642153363322516,
+    "resolved": true,
+    "valid": true
+  },
+  "rank3": {
+    "T_solidus_full_K": 1578.245740849599,
+    "max_liquid_jump_per_step": 0.0668420616432994,
+    "resolved": true,
+    "valid": true
+  },
+  "rank4": {
+    "T_solidus_full_K": 1584.0587627863745,
+    "max_liquid_jump_per_step": 0.0666679999447071,
+    "resolved": true,
+    "valid": true
+  },
+  "rank5": {
+    "T_solidus_full_K": 1588.0726937505708,
+    "max_liquid_jump_per_step": 0.0612640335879857,
+    "resolved": true,
+    "valid": true
+  },
+  "rank6": {
+    "T_solidus_full_K": 1588.054900536296,
+    "max_liquid_jump_per_step": 0.0666235876246311,
+    "resolved": true,
+    "valid": true
+  },
+  "A1": {
+    "T_solidus_full_K": 1518.002,
+    "max_liquid_jump_per_step": 1.0000000000584488,
+    "resolved": false,
+    "valid": true
+  }
+}

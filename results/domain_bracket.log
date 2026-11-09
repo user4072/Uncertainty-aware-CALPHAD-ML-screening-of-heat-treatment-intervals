@@ -1,0 +1,6 @@
+  alloy        role  omitted_wt                                       omitted_note  knn_dist_6d  knn_percentile  inside_knn_radius  chemically_in_domain  solidus_error_K  liquidus_error_K  dH_error_J_per_g
+ Rene77 calibration        0.00                            all solutes represented     0.901701           31.50               True                  True        -4.909464          4.635768          9.850090
+  IN100 calibration        0.82                             V absent from database     1.162998           75.50               True                 False        26.898660         20.660272         13.591217
+ IN713C calibration        2.27           Nb and Ta reported together; both absent     1.242067           85.25               True                 False       -18.091282         17.814521        127.552313
+IN738LC      stress        5.10 Ta and W omitted; Nb absent; six-solute projection     0.926189           35.50               True                 False        88.876897         44.802608               NaN
+radius p99 1.514

@@ -1,0 +1,7 @@
+alloy,Ta,W,Nb,V,B,Zr,total_wt,note
+Rene77,0.0,0.0,0.0,0.0,0.0,0.0,0.0,all solutes represented
+IN100,0.0,0.0,0.0,0.82,0.0,0.0,0.82,V defined in database but held at 1e-12; held at trace in the seven-solute model
+Nimonic105,0.0,0.0,0.0,0.0,0.005,0.05,0.055,trace B and Zr only; nominal composition
+Nimonic115,0.0,0.0,0.0,0.0,0.015,0.04,0.055,trace B and Zr only; nominal composition
+IN713C,0.0,0.0,2.27,0.0,0.0,0.0,2.27,Nb+Ta reported as Nb; defined in database but held at 1e-12 and folded into Ni
+IN738LC,1.7,2.6,0.8,0.0,0.0,0.0,5.1,Ta undefined in database; W and Nb defined but held at 1e-12; all three folded into Ni

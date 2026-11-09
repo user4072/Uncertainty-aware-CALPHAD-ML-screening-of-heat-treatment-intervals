@@ -1,0 +1,103 @@
+{
+  "targets": [
+    {
+      "target": "T_gp_solvus",
+      "refinement": "solid-state grid 25 K -> full-bracket 2 K",
+      "n": 411,
+      "median_movement_K": 11.08522802420407,
+      "p90_abs_movement_K": 20.541727897812052,
+      "frac_gt_10K": 0.559610705596107,
+      "gp_rmse_heldout_K": 2.285752920169964,
+      "gp_rmse_independent_K": 2.2381011828952744
+    },
+    {
+      "target": "T_solidus",
+      "refinement": "melting grid 10 K -> 2 K",
+      "n": 23,
+      "median_movement_K": 3.212214191419662,
+      "p90_abs_movement_K": 6.015775937589251,
+      "frac_gt_10K": 0.0,
+      "gp_rmse_heldout_K": 4.100250908649041,
+      "gp_rmse_independent_K": 3.7627091247248217
+    },
+    {
+      "target": "T_liquidus",
+      "refinement": "melting grid 10 K -> 2 K",
+      "n": 23,
+      "median_movement_K": 5.932023009536806,
+      "p90_abs_movement_K": 7.807648588302572,
+      "frac_gt_10K": 0.0,
+      "gp_rmse_heldout_K": 3.3138068584773253,
+      "gp_rmse_independent_K": 4.088570170771117
+    },
+    {
+      "target": "dH_fusion_J_per_g",
+      "refinement": "melting grid 10 K -> 2 K",
+      "n": 23,
+      "median_movement_K": 0.0332571500219671,
+      "p90_abs_movement_K": 0.06267988073731202,
+      "frac_gt_10K": 0.0,
+      "gp_rmse_heldout_K": 0.1648395659034326,
+      "gp_rmse_independent_K": 0.2249412835160074
+    },
+    {
+      "target": "gp_frac_900C",
+      "refinement": "minimiser density 150 -> 400",
+      "n": 476,
+      "median_movement_K": -2.067238047409603e-11,
+      "p90_abs_movement_K": NaN,
+      "frac_gt_10K": 0.226890756302521,
+      "gp_rmse_heldout_K": 0.0069776040686717,
+      "gp_rmse_independent_K": 0.0078392252591535
+    }
+  ],
+  "extra": {
+    "solvus_pdens_150_to_400": {
+      "n": 406,
+      "median": 8.072106538747903e-08,
+      "mean": 0.30998396906294673,
+      "min": -252.40946549616592,
+      "max": 19.542731134898986,
+      "p05": -25.129833454527272,
+      "p95": 18.1642724439281,
+      "p01": -144.5837447794618,
+      "p99": 19.20306241561217,
+      "frac_abs_gt": {
+        "5.0": 0.45566502463054187,
+        "10.0": 0.43842364532019706,
+        "20.0": 0.054187192118226604
+      }
+    },
+    "solvus_phase_list_6_to_12": {
+      "n": 18,
+      "n_corner": 4,
+      "n_former": 4,
+      "max_abs_d_solvus_K": 1.5079057073176045,
+      "max_abs_d_f900": 3.7641301187107956e-10,
+      "n_solvus_gt_5K": 0,
+      "n_solvus_gt_1K": 1,
+      "corner_max_abs_d_solvus_K": 4.073990567121655e-08,
+      "former_max_abs_d_solvus_K": 1.5079057073176045,
+      "worst": {
+        "id": 35,
+        "group": "former",
+        "Co": 13.088261147512872,
+        "Cr": 17.54404188833908,
+        "Al": 6.359223007852192,
+        "Mo": 2.411559793773691,
+        "Ti": 5.464614229643519,
+        "C": 0.1091778915239941,
+        "Ni": 55.023122041354654,
+        "C_plus_Mo": 2.520737685297685,
+        "T_solvus_six": 1451.3345267574523,
+        "T_solvus_full": 1449.8266210501347,
+        "d_solvus_K": -1.5079057073176045,
+        "f900_six": 0.7401432791383613,
+        "f900_full": 0.740143279460243,
+        "d_f900": 3.218817434813559e-10,
+        "solid_valid_full": 1.0,
+        "seconds": 41.1
+      }
+    }
+  }
+}

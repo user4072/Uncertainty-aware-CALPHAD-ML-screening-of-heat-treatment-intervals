@@ -1,0 +1,37 @@
+{
+  "recorded_costs": {
+    "dataset_generation_wall_days": 4.8,
+    "workers": 4,
+    "n_design_alloys": 480,
+    "per_alloy_calphad_s_recorded": 864.0,
+    "per_alloy_calphad_s_local_2026": 15.0,
+    "surrogate_training_s_all_targets": 54.06826066970825,
+    "inference_120k_s": 7.7,
+    "shortlist_revalidation_s_six_alloys": 88.2657859325409
+  },
+  "calculation_outcomes": {
+    "n_design": 480,
+    "n_complete_signature": 357,
+    "n_failed_or_censored": 123,
+    "direct_480_relabeled": 418,
+    "direct_480_feasible": 247
+  },
+  "break_even": {
+    "prob_random_draw6_ge_250K": 0.0015,
+    "draws_of_six_to_match_255p8K": 666.6666666666666,
+    "random_evals_to_match": 4000.0,
+    "marginal_surrogate_route_s": 95.9657859325409,
+    "marginal_direct_route_s": 3456000.0,
+    "breakeven_campaigns": 0.12000333223787406,
+    "note": "Fixed cost = 4.8-day dataset. A future campaign that would otherwise draw candidates at random repays it within the first campaign."
+  },
+  "recovery": {
+    "tolerance_K": 10.0,
+    "sequential_search_best_K": 255.81555064375243,
+    "sequential_recovery_step_of_6": 1,
+    "direct_best_feasible_K": 253.12766933127682,
+    "direct_expected_random_evals_to_recover_within_10K": 247.0,
+    "surrogate_screen_recovery_step": 1,
+    "surrogate_screen_evals_to_beat_direct_best": 6
+  }
+}

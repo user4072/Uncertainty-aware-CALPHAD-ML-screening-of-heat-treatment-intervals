@@ -1,0 +1,15 @@
+
+DSC validation (temperatures in K, enthalpy in J/g)
+   T_solidus_dsc  T_liquidus_dsc  dH_fusion_J_per_g_dsc
+0         1575.2          1625.2                  237.4
+1         1563.2          1609.2                  230.2
+2         1598.2          1622.2                  171.7
+3         1511.2          1595.2                    NaN
+  T_solidus            n=3  raw MAE=  16.6 K  LOO-bias MAE=  25.6 K
+    stress IN738LC  obs= 1511.2  CALPHAD= 1600.0  K
+    surrogate GP        raw MAE=  19.1 K  LOO-bias MAE=  28.8 K
+  T_liquidus           n=3  raw MAE=  14.4 K  LOO-bias MAE=   9.7 K
+    stress IN738LC  obs= 1595.2  CALPHAD= 1640.0  K
+    surrogate GP        raw MAE=  15.7 K  LOO-bias MAE=  14.4 K
+  dH_fusion_J_per_g    n=3  raw MAE=  50.3 J/g  LOO-bias MAE=  77.2 J/g
+    surrogate GP        raw MAE=  50.9 J/g  LOO-bias MAE=  77.5 J/g

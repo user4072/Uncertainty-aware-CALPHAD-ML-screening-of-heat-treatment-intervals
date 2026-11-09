@@ -1,0 +1,11 @@
+E:\projects\pycalphad\dsc\scripts\trust_region_sensitivity.py:45: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  X = qmc.scale(qmc.Sobol(d=len(FEATURES), scramble=True, seed=7).random(120000), lo, hi)
+r=1.200: n=  5309  best pred 253.9 +/- 3.9  overlap 1/6  max knn 1.20
+r=1.400: n= 27456  best pred 253.9 +/- 3.9  overlap 2/6  max knn 1.31
+r=1.600: n= 50078  best pred 259.7 +/- 4.3  overlap 3/6  max knn 1.59
+r=1.704: n= 57274  best pred 259.7 +/- 4.3  overlap 6/6  max knn 1.66
+r=1.800: n= 61323  best pred 269.6 +/- 4.5  overlap 5/6  max knn 1.71
+r=2.000: n= 65048  best pred 269.6 +/- 4.5  overlap 5/6  max knn 1.71
+r=2.400: n= 66169  best pred 269.6 +/- 4.5  overlap 5/6  max knn 1.71
+r=inf: n= 66201  best pred 269.6 +/- 4.5  overlap 5/6  max knn 1.71
+Wrote results/trust_region_sensitivity.csv

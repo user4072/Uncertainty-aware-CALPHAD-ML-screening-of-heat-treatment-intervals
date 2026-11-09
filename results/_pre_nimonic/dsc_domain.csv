@@ -1,0 +1,5 @@
+alloy,role,omitted_wt,omitted_note,knn_dist_6d,knn_percentile,inside_knn_radius,chemically_in_domain,solidus_error_K,liquidus_error_K,dH_error_J_per_g
+Rene77,calibration,0.0,all solutes represented,0.9017009136553199,31.5,True,True,-4.909464497128738,4.635768071802204,9.850090338529924
+IN100,calibration,0.82,V absent from database,1.1629980771577786,75.5,True,False,26.898660239652372,20.660272049983405,13.591216914520857
+IN713C,calibration,2.27,Nb and Ta reported together; both absent,1.242066966989928,85.25,True,False,-18.091281967777377,17.81452056831199,127.55231327120373
+IN738LC,stress,5.1,Ta and W omitted; Nb absent; six-solute projection,0.9261886448584191,35.5,True,False,88.87689696022426,44.802608266984635,

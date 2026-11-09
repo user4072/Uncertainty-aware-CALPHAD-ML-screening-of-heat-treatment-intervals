@@ -1,0 +1,7 @@
+alloy,source,Co,Cr,Al,Mo,Ti,V,Nb,C,Ni,Tsol_C,Tliq_C,dH_J_g,dH_secondary_J_g,T_secondary_C,notes,role
+Rene77,Binczyk2008,14.49,14.28,4.42,4.2,3.38,0.0,0.0,0.1,59.13,1302,1352,237.41,0.0,,DSC heating 10 K/min; phase A melting peak,calibration
+IN100,Binczyk2008,13.47,8.52,5.76,2.98,4.69,0.82,0.0,0.15,63.61,1290,1336,230.16,72.53,1297.0,DSC heating 10 K/min; secondary peak at 1297 C,calibration
+Nimonic105,SpecialMetals105,20.0,15.0,4.7,5.0,1.2,0.0,0.0,0.15,53.95,1290,1345,,,,"Nominal composition within the specification range; liquidus 1345 C by inverse cooling (+/-5 C); solidus 1290 C by metallography (+0/-10 C)",validation
+Nimonic115,SpecialMetals115,15.0,15.0,5.0,3.5,4.0,0.0,0.0,0.15,57.35,1260,1315,,,,"Nominal composition within the specification range; melting range 1260-1315 C; method not stated",validation
+IN713C,Binczyk2008,0.03,13.26,5.85,4.1,0.85,0.0,2.27,0.1,73.54,1325,1349,171.74,0.0,,DSC heating 10 K/min; Nb+Ta reported as Nb,projection
+IN738LC,Chapman2004,8.3,15.9,3.5,1.7,3.5,0.0,0.8,0.1,67.0,1238,1322,,,,"DSC round robin, zero-heating-rate recommendation; Ta 1.7 and W 2.6 omitted and Nb 0.8 folded into Ni (Ni 67.0 is the six-solute balance; approximate projection)",stress

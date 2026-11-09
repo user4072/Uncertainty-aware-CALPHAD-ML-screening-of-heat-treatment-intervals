@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this workflow, please cite the manuscript and the archived repository."
+title: "DSC-anchored CALPHAD surrogate pipeline for Ni-base superalloys"
+abstract: >-
+  Open, end-to-end workflow that links pycalphad with the open MatCalc Ni
+  database, trains Gaussian-process, polynomial-chaos and neural-network
+  surrogates for DSC-relevant thermal signatures of Ni-base superalloys,
+  anchors them against literature DSC, and screens the heat-treatment window
+  with uncertainty-aware surrogate optimisation.
+type: software
+license: MIT
+repository-code: "https://github.com/REPLACE-WITH-OWNER/REPLACE-WITH-REPO"
+version: "0.1.0"
+date-released: "2026-10-30"
+authors:
+  - family-names: "Author"
+    given-names: "First"
+    affiliation: "Department of Materials Science and Engineering, University"
+  - family-names: "Author"
+    given-names: "Second"
+    affiliation: "Department of Materials Science and Engineering, University"
+  - family-names: "Author"
+    given-names: "Third"
+    affiliation: "Thermodynamics Group, Institute"
+keywords:
+  - CALPHAD
+  - Ni-base superalloys
+  - differential scanning calorimetry
+  - Gaussian process
+  - polynomial chaos
+  - surrogate-based design
+  - heat-treatment window

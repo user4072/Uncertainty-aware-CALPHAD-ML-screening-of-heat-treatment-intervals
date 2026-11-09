@@ -1,0 +1,65 @@
+database: databases/mc_ni_v2.034.tdb
+
+elements:
+  - NI
+  - CO
+  - CR
+  - AL
+  - MO
+  - TI
+  - C
+  - VA
+
+# Phases that can be stable in the Ni-rich corner of the mc_ni database.
+# These six phases cover every phase found in the composition space during a
+# scan with the full 12-phase list; pruning the rest cuts the solid-state
+# calculation cost by roughly a factor of four with no change in the
+# gamma-prime solvus or the 750/900 C phase fractions.
+active_phases:
+  - FCC_A1
+  - GAMMA_PRIME
+  - MC
+  - M23C6
+  - SIGMA
+  - BCC_A2
+
+# Bounds chosen so that Rene 77, IN100 and IN713C all lie inside the design
+# space; the three alloys are therefore legitimate leave-one-out DSC tests
+# rather than extrapolation exercises.
+composition_space_wt:
+  Co: [0.0, 20.0]
+  Cr: [8.0, 18.0]
+  Al: [3.0, 6.5]
+  Mo: [1.5, 6.5]
+  Ti: [0.5, 5.5]
+  C:  [0.0, 0.15]
+  Ni_min: 45.0
+  min_Al_Ti_sum: 3.0
+
+temperature:
+  # pycalphad builds the condition as (min, max, step) and excludes the upper
+  # bound, so the effective grids are 950-1550 K (25 K) and 1450-1690 K
+  # (10 K); the extra 25 K / 10 K above the last point is the window margin
+  # used by the boundary censoring rule.
+  solid_min: 950.0
+  solid_max: 1575.0
+  solid_step: 25.0
+  melt_min: 1450.0
+  melt_max: 1700.0
+  melt_step: 10.0
+
+sampling:
+  n_train: 400
+  n_test: 80
+  seed: 42
+
+# The melting calculation only involves LIQUID and FCC_A1 and converges at
+# pdens 150.  The six-phase solid calculation needs pdens 400: at 150 the
+# grid minimiser often returns a metastable single-phase GAMMA_PRIME branch
+# at high temperature (fraction of fcc -> 0), which shifts the solvus by up
+# to several hundred kelvin.  pdens 400 and 800 agree to numerical precision,
+# so 400 is used for cost.
+pdens_melt: 150
+pdens_solid: 400
+refine_solvus: true
+workers: 4

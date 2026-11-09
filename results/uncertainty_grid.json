@@ -1,0 +1,26 @@
+{
+  "W_design_K": 264.8255556407785,
+  "W_rene77_K": 150.54118217514247,
+  "gain_K": 114.28437346563601,
+  "sigma_solidus_measured_K": 24.55618387693409,
+  "sigma_solvus_prior_K": 30.0,
+  "sigma_surrogate_W_K": 4.256925723435427,
+  "sigma_one_window_K": 39.00163564791411,
+  "sigma_gain_independent_K": 55.15664208801411,
+  "sigma_gain_common_mode_K": 8.513851446870854,
+  "note": "Common-mode limit leaves the thermodynamic discrepancy in one window only from the difference; the reported 99.8% figure corresponds to applying the single-window sigma to the gain.",
+  "P_gain_positive_by_family": {
+    "normal": 0.9810975,
+    "uniform": 0.9875175,
+    "t4": 0.97885
+  },
+  "P_gain_positive_range": {
+    "min": 0.8786025,
+    "max": 1.0,
+    "min_at": {
+      "family": "uniform",
+      "rho": 0.0,
+      "sigma_solv_K": 60.0
+    }
+  }
+}

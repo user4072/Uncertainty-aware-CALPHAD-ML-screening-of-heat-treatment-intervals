@@ -1,0 +1,18 @@
+{
+  "rank": 6,
+  "step_K": 2.0,
+  "pdens": 2000,
+  "T_solidus": 1588.0549005364423,
+  "T_liquidus": 1643.991383619846,
+  "max_jump": 0.06662358760479437,
+  "jump_below_K": 1642.0,
+  "jump_above_K": 1644.0,
+  "phases_below": {
+    "FCC_A1": 0.06733656058411357,
+    "LIQUID": 0.932663439474219
+  },
+  "phases_above": {
+    "LIQUID": 0.9992870270790134
+  },
+  "seconds": 535.7
+}
